@@ -1,0 +1,31 @@
+#Create a dictionary. Keys are country names. Values of number of refugees according to https://en.wikipedia.org/wiki/Refugee_camp.
+refdict = {"Chad": 250000, "Uganda": 170000, "Kenya": 330000, "Ghana": 12000, "Libya": 30000}
+
+#Function to print out country names (keys) in dictionary.
+def prcount (dictionary):
+  for x in dictionary:
+    print (x)
+
+prcount (refdict)
+
+#Function to print out number of refugees (values) in dictionary.
+
+#this is the dictionary
+refdict = {"Chad": 250000, "Uganda": 170000, "Kenya": 330000, "Ghana": 12000, "Libya": 30000}
+
+def prnum (dictionary):
+  for x in dictionary:
+    print (dictionary[x])
+
+prnum(refdict)
+
+#Function to print out a statement "CountryX has y refugees" using dictionary pairs.
+
+#this is the dictionary
+refdict = {"Chad": 250000, "Uganda": 170000, "Kenya": 330000, "Ghana": 12000, "Libya": 30000}
+
+def prboth (dictionary):
+  for x in dictionary:
+    print (x, "has" ,dictionary[x], "refugees.")
+
+prboth(refdict)
